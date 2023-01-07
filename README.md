@@ -22,7 +22,7 @@ What the script does:
 - sends a datapoint to a beeminder goal which is hardcoded as "pomodoro", you'll probably want to change that. 
 	- The datapoint value is 1
 	- The associated comment is whatever task you typed in
-- if there is a hashtag in the task then it also tries to send a datapoint to that beeminder goal. E.g. if you type in "do some work on #workproject" it will send a datapoint to your bigworkproject beeminder goal as well as your pomodoro goal.
+- if there is a hashtag in the task then it also tries to send a datapoint to that beeminder goal. E.g. if you type in "do some work on #workproject" it will send a datapoint to your _workproject_ beeminder goal as well as your pomodoro goal.
 
 What the script doesn't do:
 - Any kind of error checking or reporting
