@@ -4,7 +4,7 @@ This script uses the [QuickAdd](https://quickadd.obsidian.guide/) plugin for [Ob
 
 This is how I set it up:
 - make sure the QuickAdd community plugin is installed within Obsidian
-- copy the quickadd_beemind_pomodoro.js file into your vault, it doesn't matter where you put it or what you name it but make sure it keeps the .js ending
+- copy the [quickadd_beemind_pomodoro.js](https://github.com/nocto7/scripty_stuff/blob/main/quickadd_beemind_pomodoro.js) file into your vault, it doesn't matter where you put it or what you name it but make sure it keeps the .js ending
 - go into the QuickAdd settings > Manage Macros > Add a macro with a name of your choice e.g. "beemind pomodoro"
 - look under "User Scripts" and you should find the .js file there, add it as the first action in the macro. If you click on the settings cog for this action you should see boxes  to add your beeminder username and auth_token. Your personal beeminder auth_token can be found [here](https://www.beeminder.com/settings/account#account-permissions).
 - for the second action add a capture action. You'll want it to look something like this. Pick the file and format that suit you. My capture format is "**{{DATE:HH:mm}}** {{VALUE:taskname}} ⏳ {{DATE:YYYY-MM-DD}} #pomodoro". 
