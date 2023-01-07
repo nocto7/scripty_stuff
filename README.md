@@ -18,7 +18,7 @@ This is how I set it up:
 - I also use the [Commander](https://github.com/phibr0/obsidian-commander) community plugin  to put a button for the command on the ribbon within Obsidian. 
 
 What the script does:
-	- asks you for your task with the prompt _Start Pomodoro with task:_
+- asks you for your task with the prompt _Start Pomodoro with task:_
 - sends a datapoint to a beeminder goal which is hardcoded as "pomodoro", you'll probably want to change that. 
 	- The datapoint value is 1
 	- The associated comment is whatever task you typed in
