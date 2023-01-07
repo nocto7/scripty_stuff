@@ -8,7 +8,7 @@ This is how I set it up:
 - go into the QuickAdd settings > Manage Macros > Add a macro with a name of your choice e.g. "beemind pomodoro"
 - look under "User Scripts" and you should find the .js file there, add it as the first action in the macro. If you click on the settings cog for this action you should see boxes  to add your beeminder username and auth_token. Your personal beeminder auth_token can be found [here](https://www.beeminder.com/settings/account#account-permissions).
 - for the second action add a capture action. You'll want it to look something like this. Pick the file and format that suit you. My capture format is "**{{DATE:HH:mm}}** {{VALUE:taskname}} ⏳ {{DATE:YYYY-MM-DD}} #pomodoro". 
-![[https://raw.githubusercontent.com/nocto7/scripty_stuff/main/quickadd_capture1.png]]
+![Capture Foramt](https://raw.githubusercontent.com/nocto7/scripty_stuff/main/quickadd_capture1.png)
 
 - and for the third action I start a pomodoro timer using the [Status Bar Pomodoro Timer](https://github.com/kzhovn/statusbar-pomo-obsidian) plugin, but that's not essential.
 - then add a macro choice in the QuickAdd settings, I call mine "🐝🍅Start Beeminded Pomodoro" and set it to call the macro you just created. Add a command for it by selecting the lightning bolt.
